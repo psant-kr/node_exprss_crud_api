@@ -12,6 +12,7 @@ app.use("/api/v1/courses", coursesRouter)
 
 mongoose.connect(process.env.DB_CONNECTION_URL)
 
+// hi this is comment
 
 app.listen(process.env.PORT, () => {
     console.log('server is listening on port 2000')
